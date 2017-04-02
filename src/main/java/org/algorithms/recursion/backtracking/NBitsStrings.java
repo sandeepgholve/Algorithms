@@ -19,6 +19,14 @@ import java.util.Arrays;
  *     [0, 1, 1]
  *     [1, 1, 1]
  * </p>
+ *
+ * Using Subtraction and Conquer Mater Theorem we get: T(n) = O(2^n)
+ *
+ * Approach:
+ *  1. Recursion is the key here.
+ *  2. Create a integer array of size 'n'
+ *  3. Now if we think of every bit, it can take 2 values, 0 and 1
+ *  4. Starting from the end of the String, set the bit 0 and 1 and make recursive calls.
  */
 public class NBitsStrings {
     int[] arrayA;
