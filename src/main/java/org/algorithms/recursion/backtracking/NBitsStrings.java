@@ -20,7 +20,7 @@ import java.util.Arrays;
  *     [1, 1, 1]
  * </p>
  *
- * Using Subtraction and Conquer Mater Theorem we get: T(n) = O(2^n)
+ * Let T(n) be the running time of nBits(n). Using Subtraction and Conquer Mater Theorem we get: T(n) = O(2^n)
  *
  * Approach:
  *  1. Recursion is the key here.
