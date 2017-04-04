@@ -1,4 +1,4 @@
-package org.datastructures.arrays.iteration;
+package org.algorithms.iteration;
 
 import org.junit.After;
 import org.junit.Before;

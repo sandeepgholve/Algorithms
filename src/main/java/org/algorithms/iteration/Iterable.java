@@ -1,4 +1,4 @@
-package org.datastructures.arrays.iteration;
+package org.algorithms.iteration;
 
 /**
  * Created by sgholve on 4/4/17.
