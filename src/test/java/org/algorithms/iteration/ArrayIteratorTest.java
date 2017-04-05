@@ -44,7 +44,7 @@ public class ArrayIteratorTest {
         try {
             iterator.current();
             fail("Should not reach here.");
-        } catch (IteratorOutOfBoundException e) {
+        } catch (IteratorOutOfBoundsException e) {
             // expected
         }
     }

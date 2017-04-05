@@ -61,9 +61,9 @@ public class ArrayIterator implements Iterator {
         _current--;
     }
 
-    public Object current() throws IteratorOutOfBoundException {
+    public Object current() throws IteratorOutOfBoundsException {
         if (isDone())
-            throw new IteratorOutOfBoundException();
+            throw new IteratorOutOfBoundsException();
 
         return _array[_current];
     }

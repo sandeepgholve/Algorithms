@@ -9,5 +9,5 @@ public interface Iterator {
     boolean isDone();
     void next();
     void previous();
-    Object current() throws IteratorOutOfBoundException;
+    Object current() throws IteratorOutOfBoundsException;
 }
