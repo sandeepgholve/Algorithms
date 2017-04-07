@@ -16,6 +16,7 @@ public class ArrayList implements List {
 
     public ArrayList() {
         this._initialCapacity = DEFAULT_INITIAL_CAPACITY;
+        clear();
     }
 
     public ArrayList(int initialCapacity) {
@@ -36,6 +37,9 @@ public class ArrayList implements List {
             throw new IndexOutOfBoundsException();
 
         ensureCapacity(_size + 1);
+        System.arraycopy(_array, index, _array, index + 1, _size - index);
+        _array[index] = value;
+        ++_size;
     }
 
     private void ensureCapacity(int capacity) {

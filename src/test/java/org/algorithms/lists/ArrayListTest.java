@@ -15,7 +15,7 @@ public class ArrayListTest extends AbstractListTest {
 
     @Test
     public void testResizeBeyondInitialCapacity() {
-        List list = new ArrayList(1);
+        List list = new ArrayList();
         list.add(VALUE_A);
         list.add(VALUE_A);
         list.add(VALUE_A);
@@ -27,7 +27,7 @@ public class ArrayListTest extends AbstractListTest {
 
     @Test
     public void testDeleteFromLastElementInArray() {
-        List list = new ArrayList(1);
+        List list = new ArrayList();
         list.add(new Object());
         list.delete(0);
     }

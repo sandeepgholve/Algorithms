@@ -20,7 +20,7 @@ public class ArrayIterator implements Iterator {
         assert array != null : "array can't be null";
         assert start >= 0 : "start can't be < 0";
         assert start < array.length : "start can't be > array.length";
-        assert length > 0 : "length can't be < 0";
+        assert length >= 0 : "length can't be < 0";
 
         _array = array;
         _first = start;
