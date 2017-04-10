@@ -26,6 +26,16 @@ public class ArrayList implements List {
         clear();
     }
 
+    public ArrayList(Object[] array) {
+        assert array != null : "array can't be null.";
+
+        this._initialCapacity = array.length;
+        clear();
+
+        System.arraycopy(array, 0, _array, 0, array.length);
+        _size = array.length;
+    }
+
     public Iterator iterator() {
         return new ArrayIterator(_array, 0, _size);
     }
