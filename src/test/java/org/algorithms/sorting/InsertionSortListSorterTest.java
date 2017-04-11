@@ -7,6 +7,6 @@ import java.util.Comparator;
  */
 public class InsertionSortListSorterTest extends AbstractListSorterTest {
     protected ListSorter createListSorter(Comparator comparator) {
-        return new InsertionListSorter(comparator);
+        return new InsertionSortListSorter(comparator);
     }
 }

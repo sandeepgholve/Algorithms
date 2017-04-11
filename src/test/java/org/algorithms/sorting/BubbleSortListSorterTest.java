@@ -7,6 +7,6 @@ import java.util.Comparator;
  */
 public class BubbleSortListSorterTest extends AbstractListSorterTest {
     protected ListSorter createListSorter(Comparator comparator) {
-        return new BubbleListSorter(comparator);
+        return new BubbleSortListSorter(comparator);
     }
 }

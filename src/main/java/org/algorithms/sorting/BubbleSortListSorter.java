@@ -7,10 +7,10 @@ import java.util.Comparator;
 /**
  * Created by sgholve on 11/4/17.
  */
-public class BubbleListSorter implements ListSorter {
+public class BubbleSortListSorter implements ListSorter {
     private final Comparator _comparator;
 
-    public BubbleListSorter(Comparator comparator) {
+    public BubbleSortListSorter(Comparator comparator) {
         assert comparator != null : "comparator can't be null";
         this._comparator = comparator;
     }

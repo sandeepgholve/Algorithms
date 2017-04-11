@@ -7,10 +7,10 @@ import java.util.Comparator;
 /**
  * Created by sgholve on 11/4/17.
  */
-public class SelectionListSorter implements ListSorter {
+public class SelectionSortListSorter implements ListSorter {
     private final Comparator _comparator;
 
-    public SelectionListSorter(Comparator comparator) {
+    public SelectionSortListSorter(Comparator comparator) {
         assert comparator != null : "comparator can't be null";
         this._comparator = comparator;
     }

@@ -9,10 +9,10 @@ import java.util.Comparator;
 /**
  * Created by sgholve on 11/4/17.
  */
-public class InsertionListSorter implements ListSorter {
+public class InsertionSortListSorter implements ListSorter {
     private final Comparator _comparator;
 
-    public InsertionListSorter(Comparator comparator) {
+    public InsertionSortListSorter(Comparator comparator) {
         assert comparator != null : "comparator can't be null";
         this._comparator = comparator;
     }
