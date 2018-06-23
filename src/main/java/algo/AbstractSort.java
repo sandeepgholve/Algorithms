@@ -8,5 +8,13 @@ public abstract class AbstractSort {
         System.out.println();
     }
 
+    final void swap(int[] array, int x, int y) {
+        if (x != y) {
+            int temp = array[x];
+            array[x] = array[y];
+            array[y] = temp;
+        }
+    }
+
     public abstract void sort(int[] array);
 }

@@ -37,9 +37,7 @@ public class BubbleSort extends AbstractSort {
                 swapped = false;
                 for (int j = 0; j < length - i - 1; j++) {
                     if (array[j] > array[j + 1]) {
-                        int temp = array[j];
-                        array[j] = array[j + 1];
-                        array[j + 1] = temp;
+                        swap(array, j, j+1);
                         swapped = true;
                         cout++;
                     }

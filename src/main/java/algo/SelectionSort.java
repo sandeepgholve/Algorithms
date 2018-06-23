@@ -40,11 +40,7 @@ public class SelectionSort extends AbstractSort {
                     smallestItemIndex = j;
                 }
             }
-            if (i != smallestItemIndex) {
-                int temp = array[smallestItemIndex];
-                array[smallestItemIndex] = array[i];
-                array[i] = temp;
-            }
+            swap(array, smallestItemIndex, i);
         }
     }
 }
