@@ -1,4 +1,4 @@
-package algo;
+package algo.sorting;
 
 /**
  * Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity

@@ -1,4 +1,4 @@
-package algo;
+package algo.sorting;
 
 public class QuickSort extends AbstractSort {
     @Override

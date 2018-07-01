@@ -1,4 +1,4 @@
-package algo;
+package algo.sorting;
 
 public abstract class AbstractSort {
     final void printArray(int[] array) {
